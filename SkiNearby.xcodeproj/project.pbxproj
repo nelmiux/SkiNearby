@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA39C3CB1D385D4400C6C632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39C3C61D385D4400C6C632 /* AppDelegate.swift */; };
+		CA39C3CC1D385D4400C6C632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA39C3C71D385D4400C6C632 /* Assets.xcassets */; };
+		CA39C3CE1D385D4400C6C632 /* SkiAreaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39C3C91D385D4400C6C632 /* SkiAreaData.swift */; };
+		CA39C3CF1D385D4400C6C632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39C3CA1D385D4400C6C632 /* ViewController.swift */; };
+		CA39C3D41D385D4E00C6C632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA39C3D01D385D4E00C6C632 /* LaunchScreen.storyboard */; };
+		CA39C3D51D385D4E00C6C632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA39C3D21D385D4E00C6C632 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA39C3C61D385D4400C6C632 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SkiNearby/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		CA39C3C71D385D4400C6C632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SkiNearby/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		CA39C3C81D385D4400C6C632 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SkiNearby/Info.plist; sourceTree = SOURCE_ROOT; };
+		CA39C3C91D385D4400C6C632 /* SkiAreaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkiAreaData.swift; path = SkiNearby/SkiAreaData.swift; sourceTree = SOURCE_ROOT; };
+		CA39C3CA1D385D4400C6C632 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = SkiNearby/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		CA39C3D11D385D4E00C6C632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SkiNearby/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		CA39C3D31D385D4E00C6C632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SkiNearby/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		CADA70911CA85DCD007BA7F6 /* SkiNearby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkiNearby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CADA708E1CA85DCD007BA7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CADA70881CA85DCD007BA7F6 = {
+			isa = PBXGroup;
+			children = (
+				CADA70931CA85DCD007BA7F6 /* SkiNearby */,
+				CADA70921CA85DCD007BA7F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CADA70921CA85DCD007BA7F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CADA70911CA85DCD007BA7F6 /* SkiNearby.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CADA70931CA85DCD007BA7F6 /* SkiNearby */ = {
+			isa = PBXGroup;
+			children = (
+				CA39C3C71D385D4400C6C632 /* Assets.xcassets */,
+				CA39C3D01D385D4E00C6C632 /* LaunchScreen.storyboard */,
+				CA39C3D21D385D4E00C6C632 /* Main.storyboard */,
+				CA39C3C61D385D4400C6C632 /* AppDelegate.swift */,
+				CA39C3C91D385D4400C6C632 /* SkiAreaData.swift */,
+				CA39C3CA1D385D4400C6C632 /* ViewController.swift */,
+				CA39C3C81D385D4400C6C632 /* Info.plist */,
+			);
+			name = SkiNearby;
+			path = "PereraRodriguezNelma-hw7";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CADA70901CA85DCD007BA7F6 /* SkiNearby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADA70A31CA85DCD007BA7F6 /* Build configuration list for PBXNativeTarget "SkiNearby" */;
+			buildPhases = (
+				CADA708D1CA85DCD007BA7F6 /* Sources */,
+				CADA708E1CA85DCD007BA7F6 /* Frameworks */,
+				CADA708F1CA85DCD007BA7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkiNearby;
+			productName = "PereraRodriguezNelma-hw7";
+			productReference = CADA70911CA85DCD007BA7F6 /* SkiNearby.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CADA70891CA85DCD007BA7F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cs378;
+				TargetAttributes = {
+					CADA70901CA85DCD007BA7F6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8YWW2795B4;
+					};
+				};
+			};
+			buildConfigurationList = CADA708C1CA85DCD007BA7F6 /* Build configuration list for PBXProject "SkiNearby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CADA70881CA85DCD007BA7F6;
+			productRefGroup = CADA70921CA85DCD007BA7F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CADA70901CA85DCD007BA7F6 /* SkiNearby */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CADA708F1CA85DCD007BA7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA39C3D41D385D4E00C6C632 /* LaunchScreen.storyboard in Resources */,
+				CA39C3CC1D385D4400C6C632 /* Assets.xcassets in Resources */,
+				CA39C3D51D385D4E00C6C632 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CADA708D1CA85DCD007BA7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA39C3CF1D385D4400C6C632 /* ViewController.swift in Sources */,
+				CA39C3CE1D385D4400C6C632 /* SkiAreaData.swift in Sources */,
+				CA39C3CB1D385D4400C6C632 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA39C3D01D385D4E00C6C632 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA39C3D11D385D4E00C6C632 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CA39C3D21D385D4E00C6C632 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA39C3D31D385D4E00C6C632 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CADA70A11CA85DCD007BA7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CADA70A21CA85DCD007BA7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CADA70A41CA85DCD007BA7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/SkiNearby/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "compact-cs378.SkiNearby";
+				PRODUCT_NAME = SkiNearby;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CADA70A51CA85DCD007BA7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/SkiNearby/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "compact-cs378.SkiNearby";
+				PRODUCT_NAME = SkiNearby;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CADA708C1CA85DCD007BA7F6 /* Build configuration list for PBXProject "SkiNearby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADA70A11CA85DCD007BA7F6 /* Debug */,
+				CADA70A21CA85DCD007BA7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADA70A31CA85DCD007BA7F6 /* Build configuration list for PBXNativeTarget "SkiNearby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADA70A41CA85DCD007BA7F6 /* Debug */,
+				CADA70A51CA85DCD007BA7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CADA70891CA85DCD007BA7F6 /* Project object */;
+}
